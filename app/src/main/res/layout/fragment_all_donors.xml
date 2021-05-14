@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllDonors">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/liverImg"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/liver"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/intestineImg"
+            app:srcCompat="@drawable/liver"
+            tools:srcCompat="@drawable/liver" />
+
+        <ImageView
+            android:id="@+id/intestineImg"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/intestine"
+            app:layout_constraintEnd_toStartOf="@+id/heartImg"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toEndOf="@+id/lungsImg"
+            app:layout_constraintTop_toBottomOf="@+id/textView19"
+            app:srcCompat="@drawable/intestine"
+            tools:srcCompat="@drawable/intestine" />
+
+        <ImageView
+            android:id="@+id/pancreaseImg"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="28dp"
+            android:src="@drawable/pancreas"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/intestineImg"
+            app:srcCompat="@drawable/pancreas"
+            tools:srcCompat="@drawable/pancreas" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="32dp"
+            android:text="Find Donor"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Find Donor" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="30dp"
+            android:text="Choose Organ"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+        <ImageView
+            android:id="@+id/lungsImg"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="28dp"
+            android:src="@drawable/lungs"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/kidneyImg"
+            tools:srcCompat="@drawable/lungs" />
+
+        <ImageView
+            android:id="@+id/kidneyImg"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/kidney"
+            app:layout_constraintEnd_toStartOf="@+id/heartImg"
+            app:layout_constraintStart_toEndOf="@+id/lungsImg"
+            app:layout_constraintTop_toBottomOf="@+id/textView11"
+            app:srcCompat="@drawable/kidney"
+            tools:srcCompat="@drawable/kidney" />
+
+        <ImageView
+            android:id="@+id/heartImg"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="28dp"
+            android:src="@drawable/heart"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/kidneyImg"
+            app:srcCompat="@drawable/heart"
+            tools:srcCompat="@drawable/heart" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Lungs"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/lungsImg"
+            app:layout_constraintHorizontal_bias="0.442"
+            app:layout_constraintStart_toStartOf="@+id/lungsImg"
+            app:layout_constraintTop_toBottomOf="@+id/lungsImg" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Kidney"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/kidneyImg"
+            app:layout_constraintHorizontal_bias="0.482"
+            app:layout_constraintStart_toStartOf="@+id/kidneyImg"
+            app:layout_constraintTop_toBottomOf="@+id/kidneyImg" />
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Heart"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/heartImg"
+            app:layout_constraintHorizontal_bias="0.487"
+            app:layout_constraintStart_toStartOf="@+id/heartImg"
+            app:layout_constraintTop_toBottomOf="@+id/heartImg" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Liver"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/liverImg"
+            app:layout_constraintHorizontal_bias="0.642"
+            app:layout_constraintStart_toStartOf="@+id/liverImg"
+            app:layout_constraintTop_toBottomOf="@+id/liverImg" />
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Intestine"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/intestineImg"
+            app:layout_constraintHorizontal_bias="0.476"
+            app:layout_constraintStart_toStartOf="@+id/intestineImg"
+            app:layout_constraintTop_toBottomOf="@+id/intestineImg" />
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Pancrease"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/pancreaseImg"
+            app:layout_constraintHorizontal_bias="0.547"
+            app:layout_constraintStart_toStartOf="@+id/pancreaseImg"
+            app:layout_constraintTop_toBottomOf="@+id/pancreaseImg" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

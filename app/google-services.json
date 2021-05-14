@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456566765145",
+    "project_id": "angle-in-you",
+    "storage_bucket": "angle-in-you.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456566765145:android:fda629c7be8c8f8cd26348",
+        "android_client_info": {
+          "package_name": "com.example.angleinyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456566765145-qler4i2sqh20qieb7kqcd5g9uv1de8f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPboi_ey-ecpgHNaFhZRspZP4kfoQu6aA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456566765145-qler4i2sqh20qieb7kqcd5g9uv1de8f3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
